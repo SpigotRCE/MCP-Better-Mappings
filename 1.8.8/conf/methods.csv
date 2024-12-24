@@ -556,7 +556,7 @@ func_146230_a,drawChat,0,
 func_146231_a,clearChatMessages,0,Clears the chat.
 func_146232_i,getLineCount,0,
 func_146233_a,calculateChatboxWidth,0,
-func_146234_a,printChatMessageWithOptionalDeletion,0,"prints the ChatComponent to Chat. If the ID is not 0, deletes an existing Chat Line of that ID from the GUI"
+func_146234_a,printChatMessageWithDeletion,0,"prints the ChatComponent to Chat. If the ID is not 0, deletes an existing Chat Line of that ID from the GUI"
 func_146236_a,getChatComponent,0,Gets the chat component under the mouse
 func_146237_a,setChatLine,0,
 func_146238_c,getSentMessages,0,Gets the list of messages previously sent through the chat GUI
