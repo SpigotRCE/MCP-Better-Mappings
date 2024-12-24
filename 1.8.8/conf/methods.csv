@@ -9,7 +9,7 @@ func_104112_b,saveExtraData,2,"Save extra data not associated with any Chunk.  N
 func_104140_m,saveChunkData,2,saves chunk data - currently only called during execution of the Save All command
 func_110121_a,isNullOrEmpty,0,
 func_110123_P,onChunkLoad,2,
-func_110124_au,getUniqueID,2,
+func_110124_au,getUUID,2,
 func_110128_b,onBroken,2,Called when this entity is broken. Entity parameter may be null.
 func_110131_b,removeFrameFromMap,2,Removes the dot representing this frame's position from the map when the item frame is broken.
 func_110133_a,setCustomName,2,Sets the name of this inventory. This is displayed to the client on opening.
@@ -6077,7 +6077,7 @@ func_78898_a,updatePlayerMoveState,0,
 func_78909_a,getColorIndex,0,Takes in the pass the call list is being requested for. Args: renderPass
 func_78914_f,markDirty,0,Marks the current renderer data as dirty and needing to be updated.
 func_80003_ah,getPlayerUsageSnooper,0,
-func_80006_f,getUniqueID,0,
+func_80006_f,getUUID,0,
 func_80007_l,getDimensionName,2,"Returns the dimension's name, e.g. ""The End"", ""Nether"", or ""Overworld""."
 func_82010_a,registerTickable,1,
 func_82142_c,setInvisible,2,
